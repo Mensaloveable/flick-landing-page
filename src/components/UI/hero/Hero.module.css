@@ -5,3 +5,72 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+.heroMain {
+    background: url("/assets/herobg.svg") /*no-repeat 50%/cover*/;
+    border-radius: 15px;
+    display: flex;
+    height: 635px;
+    width: 100%;
+}
+
+.content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.9em;
+    margin-top: 117px;
+    padding: 0;
+    width: 47%;
+}
+
+.bigContent {
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 32px;
+}
+
+.green {
+    color: #2ebdb6;
+}
+
+.words {
+    color: #f7fdfc;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: .2px;
+    line-height: 140%;
+    margin-bottom: 64px;
+}
+
+.clickable {
+    display: flex;
+    gap: 20px;
+    letter-spacing: -3px;
+}
+
+.clickable a {
+    text-decoration: none;
+    color: #fff;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.clickable a:nth-child(1) {
+    background-color: #2ebdb6;
+}
+
+.clickable a:nth-child(2):hover {
+    color: #0d6efd;
+}
+
+.heroImage {
+    margin-left: 120px;
+    margin-top: 50px;
+}
