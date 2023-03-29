@@ -89,13 +89,38 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className={footerStyle.footerBottom}>
-                    <div className={footerStyle.row}>
+                    <div className={footerStyle.rowBottom}>
                         <div className={footerStyle.halfCol}>
                             <div>
                                 <span className={footerStyle.bottomSpan}>Copyrighting © 2023 Flick. All rights reserved • A product of QRaba Inc. </span>
                             </div>
                         </div>
-                        <div className={footerStyle.halfCol}></div>
+                        <div className={footerStyle.halfCol}>
+                            <div className={footerStyle.pageLink}>
+                                <ul className={footerStyle.bottomLink}>
+                                    <li>
+                                        <a href="https://www.facebook.com/getflick.africa/">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                 viewBox="0 0 320 512" height="1em" width="1em"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className={footerStyle.pageLink}>
+                                <ul className={footerStyle.bottomLink}>
+                                    <li className={footerStyle.bottomLi}>
+                                        <a href="#">unsubscribe</a>
+                                    </li>
+                                    <li className={footerStyle.bottomLi}>
+                                        <a href="#">delete profile</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
