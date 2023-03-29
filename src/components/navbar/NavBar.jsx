@@ -10,7 +10,8 @@ export const NavBar = () => {
                     <li className={navStyles.item}><a className={navStyles.navLink} href="#">Business</a></li>
                     <li className={navStyles.item}><a className={navStyles.navLink} href="#">Pricing</a></li>
                     <li className={navStyles.item}><a className={navStyles.navLink} href="#">About Us</a></li>
-                    <li className={navStyles.item}><a className={navStyles.navLink} href="#">Developer <span>&#8964;</span></a>
+                    <li className={navStyles.item}><a className={navStyles.navLink}
+                                                      href="#">Developer <span>&#8964;</span></a>
                         <div className={navStyles.dropdownContent}>
                             <a className={navStyles.navLink} href="#">Overview</a>
                             <a className={navStyles.navLink} href="#">Api Documentation</a>
@@ -21,5 +22,3 @@ export const NavBar = () => {
         </header>
     )
 }
-
-// ToDo: Documentation DropDown
