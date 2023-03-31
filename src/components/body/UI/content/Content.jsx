@@ -4,6 +4,7 @@ import {FlickBanner} from "./BannerComponent/FlickBanner.jsx";
 import {FastPayment} from "./BannerComponent/FastPayment.jsx";
 import {Overview} from "./BannerComponent/Overview.jsx";
 import {LoyaltyCard} from "./BannerComponent/LoyaltyCard.jsx";
+import {Security} from "./BannerComponent/Security.jsx";
 
 export const Content = () => {
     return(
@@ -13,6 +14,7 @@ export const Content = () => {
             <FastPayment />
             <Overview />
             <LoyaltyCard />
+            <Security />
         </div>
     )
 }
