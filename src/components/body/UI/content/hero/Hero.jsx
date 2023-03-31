@@ -1,5 +1,5 @@
 import heroStyle from './Hero.module.css';
-import heroImage from '../../../../assets/heroImage.svg';
+import heroImage from '../../../../../../assets/heroImage.svg';
 
 export const Hero = () => {
     return (

@@ -1,0 +1,69 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');*/
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("assets/CircularStd-BoldItalic.otf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.trustAnimation {
+    animation-duration: 1s;
+    animation-name: fadeInUp;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    color: #111928;
+    font-size: 40px;
+    font-style: normal;
+    /*font-weight: 700;*/
+    line-height: 51px;
+    width: 44%;
+}
+
+.inner {
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+}
+
+.description {
+    color: #4a5873;
+    padding-bottom: 1rem;
+    /*font-family: Circular Std;*/
+    font-size: 1rem;
+    /*font-style: normal;*/
+    font-weight: 450;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.count {
+    color: #111928;
+    /*font-family: Circular Std;*/
+    font-size: 40px;
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
+    line-height: 51px;
+    margin-bottom: 0.5rem;
+}
+
+.header1 span{
+    color: #2ebdb6;
+}
