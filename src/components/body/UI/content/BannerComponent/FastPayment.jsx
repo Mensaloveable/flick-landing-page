@@ -10,7 +10,6 @@ export const FastPayment = () => {
                     <p>Pay friends, businesses and family, no matter what bank account they use. They get credited
                         instantly and securely.</p>
                 </div>
-
             </div>
             <div className={`${bannerStyle.animated} ${bannerStyle.rightSlide}`}>
                 <img src={fastPayment} alt={'Fast Payment'}/>
