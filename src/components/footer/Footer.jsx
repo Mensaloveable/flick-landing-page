@@ -18,11 +18,11 @@ export const Footer = () => {
                                         your finances better!</p>
                                     <div className={footerStyle.footerDownloadLink}>
                                         <a className={footerStyle.downloadLink}
-                                           href="https://www.facebook.com/getflick.africa/">
+                                           href="#">
                                             <img className={footerStyle.image} src={android} alt={'GooglePlayStore'}/>
                                         </a>
                                         <a className={footerStyle.downloadLink}
-                                           href="https://www.facebook.com/getflick.africa/">
+                                           href="#">
                                             <img className={footerStyle.image} src={apple} alt={'AppleStore'}/>
                                         </a>
                                     </div>
@@ -58,7 +58,7 @@ export const Footer = () => {
                                 <div className={footerStyle.smallCol}>
                                     <div className={footerStyle.widget}>
                                         <p className={footerStyle.footerTitle}>Developers</p>
-                                        <div className={footerStyle.footerItems}>
+                                        <div>
                                             <ul className={footerStyle.list}>
                                                 <li>
                                                     <a className={footerStyle.listItem} href="#">Overview</a>
@@ -76,7 +76,7 @@ export const Footer = () => {
                                 <div className={footerStyle.smallCol}>
                                     <div className={footerStyle.widget}>
                                         <p className={footerStyle.footerTitle}>Address</p>
-                                        <div className={footerStyle.footerItems}>
+                                        <div>
                                             <p className={footerStyle.footerTitle}>Nigeria:</p>
                                             <span className={footerStyle.footerSpan}>6th Floor, Landmark Towers, 5B Water Corporation Road, Victoria Island, Lagos</span>
                                             <p className={footerStyle.footerTitle}>United States:</p>
