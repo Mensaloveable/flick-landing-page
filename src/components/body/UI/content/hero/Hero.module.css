@@ -7,11 +7,12 @@
 }
 
 .heroMain {
-    background: url("/assets/herobg.svg") /*no-repeat 50%/cover*/;
+    background: url("/assets/herobg.svg");
     border-radius: 15px;
     display: flex;
     height: 635px;
-    width: 100%;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
 }
 
 .content {
